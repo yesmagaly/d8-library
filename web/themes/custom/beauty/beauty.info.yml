@@ -1,0 +1,7 @@
+# beauty.info.yml file is for the beaury themes
+name: Beauty
+type: theme
+description: 'A great theme for relax days'
+core: 8.x
+base theme: classy
+package: Custom
