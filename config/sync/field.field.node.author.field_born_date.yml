@@ -1,0 +1,21 @@
+uuid: 429cc502-6fb2-41af-8576-d7c01a91f97b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_born_date
+    - node.type.author
+  module:
+    - datetime
+id: node.author.field_born_date
+field_name: field_born_date
+entity_type: node
+bundle: author
+label: 'Born date'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime
