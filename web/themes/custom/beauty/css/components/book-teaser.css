@@ -1,0 +1,19 @@
+.book-teaser {
+  outline: 1px solid red;
+  background-color: #fff;
+  border-radius: 5px;
+  width: 47.5%;
+  display: flex;
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.book-teaser__cover {
+  padding: 0 1.2rem;
+}
+
+.book-teaser__cover img {
+  height: 230px;
+  width: 145px;
+  position: relative;
+  top: -30px;
+}
