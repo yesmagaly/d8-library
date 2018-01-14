@@ -71,35 +71,45 @@
  */
 #}
 <article class="book-teaser">
-
-  <div class="book-teaser__cover">
-    {{ content.field_cover }}
-  </div>
-  <div class="">
-
-    {{ title_prefix }}
-    {% if not page %}
-      <h2{{ title_attributes }}>
-        <a href="{{ url }}" rel="bookmark">{{ label }}</a>
-      </h2>
-    {% endif %}
-    {{ title_suffix }}
-
-    {% if display_submitted %}
-      <footer>
-        {{ author_picture }}
-        <div {{ author_attributes }} >
-          {% trans %}Submitted by {{ author_name }} on {{ date }}{% endtrans %}
-          {{ metadata }}
-        </div>
-      </footer>
-    {% endif %}
-
-    <div {{ content_attributes }} >
-      {{ content|without("field_cover") }}
+  <div class="book-teaser__container">
+    <div class="book-teaser__cover">
+      {{ content.field_cover }}
     </div>
 
+    <div class="book-teaset__content">
+      <div class="book-teaser__vert">
+        <img src="{{ base_path ~ directory }}/images/vert.svg" alt="">
+      </div>
+      <div class="book-teaser__details">
+        <h4 class="book-teaser__title">
+          <a href="{{ url }}" rel="bookmark">{{ label }}</a>
+        </h4>
+        <div class="book-teaser__author">
+          by {{ content.field_author }}
+        </div>
+        <div class="book-teaser__voters">
+          <img src="{{ base_path ~ directory }}/images/star.png" alt="">
+          1,978,965 voters
+        </div>
+        <div class="book-teaser__description">
+          {{ content|without("field_cover")|without("field_author")}}
+        </div>
+      </div>
+    </div>
   </div>
 
-
+  <div class="book-teaser__users">
+    <div class="book-teaser__user">
+      <img src="{{ base_path ~ directory }}/images/benveniste.jpg" alt="">
+    </div>
+    <div class="book-teaser__user">
+      <img src="{{ base_path ~ directory }}/images/autor1.jpg" alt="">
+    </div>
+    <div class="book-teaser__user">
+      <img src="{{ base_path ~ directory }}/images/benveniste.jpg" alt="">
+    </div>
+    <div class="book-teaser__comments">
+      <p>Samantha William and 2 other friends like this</p>
+    </div>
+  </div>
 </article>

@@ -1,8 +1,14 @@
 .book-teaser {
-  outline: 1px solid red;
+  /*outline: 1px solid red;*/
   background-color: #fff;
   border-radius: 5px;
   width: 47.5%;
+  border-bottom: 1px solid #f2f2f2;
+  position: relative;
+  margin-bottom: 5.5rem;
+}
+
+.book-teaser__container{
   display: flex;
   border-bottom: 1px solid #f2f2f2;
 }
@@ -16,4 +22,98 @@
   width: 145px;
   position: relative;
   top: -30px;
+}
+
+.book-teaset__content {
+
+}
+
+.book-teaser__vert {
+  position: absolute;
+  height: 2rem;
+  width: 2rem;
+  right: 0;
+  padding: .3rem;
+  text-align: right;
+  opacity: .5;
+}
+
+
+.book-teaser__details {
+  color: #97a4b1;
+  padding: 1.6rem 2rem 0 .5rem;
+}
+
+.book-teaser__description p  {
+  font-size: .82rem;
+  font-weight: 600;
+  line-height: 1.4rem;
+}
+
+.book-teaser__title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-transform: capitalize;
+  margin: 0;
+}
+
+.book-teaser__title a {
+  color: #56606a;
+  text-decoration: none;
+}
+
+.book-teaser__author {
+  font-size: .83rem;
+  font-weight: 600;
+}
+
+.book-teaser__author div {
+  display: inline;
+}
+
+.book-teaser__author a {
+  color: #999;
+  text-decoration: none;
+}
+
+.book-teaser__voters {
+  color: #ccc;
+  font-size: .8rem;
+  font-weight: 600;
+  margin: .3rem 0 .4rem 0;
+}
+
+.book-teaser__voters img {
+  height: 25px;
+  position: relative;
+  top: 5px;
+  left: -3px;
+}
+
+.book-teaser__users {
+  display: flex;
+  /*align-self: center;*/
+  margin: 0 1rem;
+}
+
+.book-teaser__user {
+  position: relative;
+  top: .7rem;
+}
+
+.book-teaser__user img {
+  margin: 0 .1rem;
+  border-radius: 1.3rem;
+  height: 23px;
+  width: 23px;
+}
+
+.book-teaser__comments {
+  margin-left: 1rem;
+}
+
+.book-teaser__comments p {
+  color: #57616a;
+  font-size: .8rem;
+  font-weight: 600;
 }
