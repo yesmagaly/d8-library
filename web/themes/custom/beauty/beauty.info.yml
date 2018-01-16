@@ -5,3 +5,13 @@ description: 'A great theme for relax days'
 core: 8.x
 base theme: classy
 package: Custom
+libraries:
+  - beauty/global-styling
+
+# Region metadata.
+regions:
+  header: 'Header'
+  content: 'Content'
+  primary_menu: 'Primary menu'
+  left_sidebar: 'Left sidebar'
+  banner: 'Banner'
