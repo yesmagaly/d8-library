@@ -1,0 +1,36 @@
+.book-mini__cover {
+  display: flex;
+  margin-bottom: 1.5rem;
+}
+
+.book-mini__cover img {
+  height: 70px;
+  width: 45px;
+}
+
+.book-mini__content {
+  font-size: .9rem;
+  font-weight: 500;
+  margin-left: 1rem;
+}
+
+.book-mini__title {
+  margin: 0;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+
+.book-mini__title a {
+  color: #7b8288;
+  text-decoration: none;
+}
+
+.book-mini__author {
+  font-size: .9rem;
+  margin-top: .5rem;
+}
+
+.book-mini__author a {
+  color: #b2bdc7;
+  text-decoration: none;
+}

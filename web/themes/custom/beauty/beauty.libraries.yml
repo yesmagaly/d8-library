@@ -3,3 +3,5 @@ global-styling:
     base:
       css/base.css: {}
       css/components/book-teaser.css: {}
+      css/components/book-mini.css: {}
+      css/components/author-teaser.css: {}
