@@ -1,0 +1,22 @@
+uuid: d191222f-a822-4df3-a17b-719629a20e77
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - beauty
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: beauty_messages
+theme: beauty
+region: header
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

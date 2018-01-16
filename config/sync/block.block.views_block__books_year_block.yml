@@ -1,0 +1,30 @@
+uuid: 6c760660-e3da-4a23-85b8-58734e0c990e
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.books_year
+  module:
+    - system
+    - views
+  theme:
+    - beauty
+id: views_block__books_year_block
+theme: beauty
+region: left_sidebar
+weight: 0
+provider: null
+plugin: 'views_block:books_year-block_1'
+settings:
+  id: 'views_block:books_year-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

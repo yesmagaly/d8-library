@@ -1,0 +1,20 @@
+uuid: 94a7412f-01c8-4661-b69b-f8b04aa7b917
+langcode: en
+status: true
+dependencies:
+  theme:
+    - beauty
+_core:
+  default_config_hash: 7rR9chwXvdM2H8OYMAYx9Zj3GGlPMrZp_M3ZA4thYTk
+id: beauty_page_title
+theme: beauty
+region: content
+weight: -8
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

@@ -21,6 +21,7 @@ module:
   help: 0
   history: 0
   image: 0
+  kint: 0
   link: 0
   menu_ui: 0
   node: 0
@@ -47,6 +48,7 @@ theme:
   classy: 0
   bartik: 0
   seven: 0
+  beauty: 0
 profile: standard
 _core:
   default_config_hash: R4IF-ClDHXxblLcG0L7MgsLvfBIMAvi_skumNFQwkDc

@@ -1,0 +1,14 @@
+uuid: 050a4a65-78d6-49db-9513-f3b36620be24
+langcode: en
+status: true
+dependencies: {  }
+name: teaser_cover
+label: 'Teaser cover (138x224)'
+effects:
+  51021182-de2c-48c9-a38d-deab402815af:
+    uuid: 51021182-de2c-48c9-a38d-deab402815af
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 138
+      height: 224

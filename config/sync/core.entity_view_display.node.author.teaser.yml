@@ -5,24 +5,27 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.author.body
+    - field.field.node.author.field_born_date
+    - field.field.node.author.field_photo
     - node.type.author
   module:
-    - text
+    - image
     - user
 id: node.author.teaser
 targetEntityType: node
 bundle: author
 mode: teaser
 content:
-  body:
+  field_photo:
+    type: image
+    weight: 0
+    region: content
     label: hidden
-    type: text_summary_or_trimmed
-    weight: 101
     settings:
-      trim_length: 600
+      image_style: ''
+      image_link: ''
     third_party_settings: {  }
-    region: content
-  links:
-    weight: 100
-    region: content
-hidden: {  }
+hidden:
+  body: true
+  field_born_date: true
+  links: true
