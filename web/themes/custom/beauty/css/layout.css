@@ -3,12 +3,14 @@
 }
 
 .section__sidebar {
+  box-sizing: border-box;
   margin: 0 2rem 0 4rem;
   position: relative;
   width: 18%;
 }
 
 .section__content {
+  box-sizing: border-box;
   margin: 0 2rem;
   width: 82%;
 }
