@@ -1,0 +1,22 @@
+.author-teaser__content {
+  display: flex;
+}
+
+.author-teaser__content img {
+  border-radius: 1.3rem;
+  height: 32px;
+  margin-right: 1.5rem;
+  width: 32px;
+}
+
+.author-teaser__content h4 {
+  position: relative;
+  top: -14px;
+  font-size: .9rem;
+  font-weight: 600;
+}
+
+.author-teaser__content a {
+  color: #7b8288;
+  text-decoration: none;
+}
