@@ -1,0 +1,14 @@
+.section {
+  display: flex;
+}
+
+.section__sidebar {
+  margin: 0 2rem 0 4rem;
+  position: relative;
+  width: 18%;
+}
+
+.section__content {
+  margin: 0 2rem;
+  width: 82%;
+}

@@ -1,0 +1,9 @@
+<?php
+function beauty_preprocess_node(&$variables) {
+
+}
+
+function beauty_preprocess(&$variables, $hook)
+{
+    $variables['base_path'] = base_path();
+}
