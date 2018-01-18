@@ -1,0 +1,91 @@
+.book-carousel {
+  color: #fff;
+  margin-bottom: 5rem;
+}
+
+.book-carousel__container {
+  background-color: #ffa2ab;
+  color: #fff;
+  display: flex;
+  padding: 2rem;
+  width: 50%;
+  height: 310px;
+  margin-bottom: 3.5rem;
+}
+
+.book-carousel__cover {
+  padding: 0 2.5rem 0 .5rem;
+}
+
+.book-carousel__cover img {
+  display: block;
+  height: 395px;
+  width: 260px;
+  position: relative;
+  top: 10px;
+}
+
+.book-carousel__content {
+  padding-top: .3rem;
+}
+
+.book-carousel__title {
+  margin: 0;
+  font-size: 1.17rem;
+  text-transform: uppercase;
+}
+
+.book-carousel__title a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.book-carousel__author {
+  display: flex;
+  font-size: .9rem;
+  font-weight: 500;
+  margin: 0;
+  padding-bottom: .5rem;
+}
+
+.book-carousel__author a {
+  color: #fff;
+  padding-left: .3rem;
+  text-decoration: none;
+}
+
+.book-carousel__voters {
+  color: #fbd8d9;
+  font-size: .85rem;
+  font-weight: 400;
+  margin: .3rem 0 .4rem 0;
+  padding-bottom: .7rem;
+}
+
+.book-carousel__voters img {
+  height: 18px;
+  position: relative;
+  top: 2px;
+  left: -3px;
+}
+
+.book-carousel__body {
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.book-carousel__btn {
+  margin: 1rem 0;
+  text-align: center;
+}
+
+.book-carousel__btn a {
+  background-color: #fff;
+  border-radius: 3rem;
+  color: #cb1b3d;
+  display: inline-block;
+  font-size: .9rem;
+  font-weight: 700;
+  padding: .68rem 3.9rem;
+  text-decoration: none;
+}
