@@ -33,16 +33,7 @@
   ]
 %}
 <div class="page-view">
-  {{ title_prefix }}
-  {% if label %}
-
-    <h2>{{ label }}</h2>
-  {% endif %}
-  {{ title_suffix }}
-  {% block content %}
-
   <div class="page-view__title">
     {{ content }}
   </div>
-  {% endblock %}
 </div>
