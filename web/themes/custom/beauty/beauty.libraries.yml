@@ -5,7 +5,26 @@ global-styling:
       css/layout.css: {}
       css/components/book-teaser.css: {}
       css/components/book-mini.css: {}
+      css/components/book-carousel.css: {}
       css/components/author-teaser.css: {}
       css/views/popular-genre.css: {}
       css/views/block-views.css: {}
       css/views/page-view.css: {}
+
+slick-carousel:
+  css:
+    theme:
+      node_modules/slick-carousel/slick/slick.css: {}
+      node_modules/slick-carousel/slick/slick-theme.css: {}
+  js:
+    node_modules/slick-carousel/slick/slick.js: {}
+
+  dependencies:
+    - core/jquery
+
+carousel:
+  js:
+    js/carousel.js: {}
+
+  dependencies:
+    - beauty/slick-carousel
