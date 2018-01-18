@@ -2,7 +2,6 @@
   /*outline: 1px solid red;*/
   background-color: #fff;
   border-radius: 5px;
-  width: 47.5%;
   border-bottom: 1px solid #f2f2f2;
   position: relative;
   margin-bottom: 5.5rem;
@@ -84,9 +83,9 @@
 }
 
 .book-teaser__voters img {
-  height: 25px;
+  height: 18px;
   position: relative;
-  top: 5px;
+  top: 2px;
   left: -3px;
 }
 

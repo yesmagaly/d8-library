@@ -1,3 +1,12 @@
+.popular-genre-view__content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.popular-genre-view__content .views-row {
+  flex-basis: 47.5%;
+}
+
 .genres {
   position: absolute;
   top: -126px;
@@ -34,4 +43,9 @@
   margin: 1.1rem auto;
   display: block;
   visibility: visible;
+}
+
+.genres .form-item-genre [checked="checked"] + label {
+  color: #4e5963;
+  font-weight: bold;
 }
