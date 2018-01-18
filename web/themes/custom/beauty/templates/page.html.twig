@@ -44,12 +44,12 @@
  */
 #}
 <div class="layout-container">
-  <h1>Hola</h1>
   <header role="banner">
     {{ page.header }}
   </header>
 
   {{ page.primary_menu }}
+
   {{ page.secondary_menu }}
 
   {{ page.breadcrumb }}
@@ -57,6 +57,10 @@
   {{ page.highlighted }}
 
   {{ page.help }}
+
+  <div class="banner">
+    {{ page.banner }}
+  </div>
 
   <main role="main" class="section">
     <a id="main-content" tabindex="-1"></a>{# link is in html.html.twig #}
