@@ -7,3 +7,12 @@ function beauty_preprocess(&$variables, $hook)
 {
     $variables['base_path'] = base_path();
 }
+
+function beauty_form_views_exposed_form_alter(&$form, &$form_state) {
+
+  //Got the Form Id by using inspect element/Firebug
+  if($form["#id"] == 'views-exposed-form-popular-genre-popular-genre-view') {
+    //field_city_tid is the Filter Identifier Key
+    $form['genre']['#options']["All"] = 'All Genres';
+   }
+}
