@@ -10,6 +10,7 @@ global-styling:
       css/views/popular-genre.css: {}
       css/views/block-views.css: {}
       css/views/page-view.css: {}
+      css/views/carousel-view.css: {}
 
 slick-carousel:
   css:
