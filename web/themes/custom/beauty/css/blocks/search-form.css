@@ -1,0 +1,40 @@
+.search {
+  /*outline: 1px solid red;*/
+}
+
+.search #search-block-form {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+/*.search .form-wrapper::before {
+  content: 'hi';
+  outline: 1px solid green;
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  z-index: 0;
+}*/
+
+.search .form-submit {
+  background: #f0f0f0 url(../../images/loupe.svg) no-repeat center;
+  text-indent: -9999px;
+  width: 25px;
+  border: 0 solid transparent;
+}
+
+.search .form-search {
+  background-color: transparent;
+  border: 0 solid transparent;
+  margin-left: .5rem;
+}
+
+.search .form-search::placeholder {
+  color: #bbb;
+  font-size: .9rem;
+  text-transform: capitalize;
+}
+
+.search .form-wrapper, .search .form-type-search {
+  margin: .15rem 0;
+}
