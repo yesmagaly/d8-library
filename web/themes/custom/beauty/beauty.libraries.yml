@@ -11,6 +11,8 @@ global-styling:
       css/views/block-views.css: {}
       css/views/page-view.css: {}
       css/views/carousel-view.css: {}
+      css/blocks/system-branding.css: {}
+      css/blocks/search-form.css: {}
 
 slick-carousel:
   css:
@@ -29,3 +31,9 @@ carousel:
 
   dependencies:
     - beauty/slick-carousel
+    - beauty/font-awesome
+
+font-awesome:
+  css:
+    theme:
+      node_modules/font-awesome/css/font-awesome.css: {}

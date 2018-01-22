@@ -1,0 +1,11 @@
+.header-title {
+  color: #7b8288;
+  margin: 0;
+  font-size: 1.3rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.header-title span {
+  color: #424d59;
+}

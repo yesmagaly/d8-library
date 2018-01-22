@@ -44,13 +44,11 @@
  */
 #}
 <div class="layout-container">
-  <header role="banner">
+  <header role="banner" class="header">
+    {{ page.primary_menu }}
     {{ page.header }}
+    {{ page.secondary_menu }}
   </header>
-
-  {{ page.primary_menu }}
-
-  {{ page.secondary_menu }}
 
   {{ page.breadcrumb }}
 
