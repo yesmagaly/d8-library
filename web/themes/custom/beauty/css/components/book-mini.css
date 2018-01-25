@@ -26,11 +26,13 @@
 }
 
 .book-mini__author {
+  display: flex;
   font-size: .9rem;
   margin-top: .5rem;
 }
 
 .book-mini__author a {
   color: #b2bdc7;
+  margin-left: .3rem;
   text-decoration: none;
 }
